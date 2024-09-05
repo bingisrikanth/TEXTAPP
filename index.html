@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srikanth Fitness</title>
+
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    body{
+        margin: 0px;
+        padding:0px;
+        background: url('img/gym.jpg');
+    }
+    .left{
+        color:aqua;
+/*border: 2px solid red;*/
+display: inline-block;
+position: absolute;
+        top: 18px;
+        left: 60px;
+
+    }
+    .left img{
+        width: 60px;
+        filter: invert(100%);
+    }
+    .left div{
+        text-align: center;
+        line-height: 0px;
+        font-size: 20px;
+
+    }
+    .mid{
+        color:aqua;
+      /*  border: 2px solid rgb(128, 0, 255);*/
+        margin: 12px auto;
+        width: 55%;
+        display: block;
+    }
+    .right{
+        color:aqua;
+       /* border: 2px solid rgb(18, 197, 93);*/
+        display: inline-block;
+        position: absolute;
+        top: 34px;
+        right: 34px;
+    }
+    .navbar{
+        display: inline-block;
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color: antiquewhite;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a{
+        color: antiquewhite;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active {
+        text-decoration: underline;
+        color: aqua;
+    }
+    .btn{
+        margin: 0px 9px;
+        color:aqua;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 4px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color:grey;
+    }
+    .container{
+        position: relative;
+    float: right;
+    /* border: 2px solid pink; */
+    margin: -16px -34px;
+    padding: 68px 73px;
+    border-radius: 28px;
+    width: 30%;
+    font-size: 20px;
+    color: aqua;
+    }
+    .form-group input{
+        background-color: black;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    width: 350px;
+    margin: auto;
+    /* border: 2px solid rgb(167, 30, 30); */
+    color: aqua;
+    border-radius: 10px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        text-align: center;
+        display: block;
+        margin: 18px auto;
+        width: 35%;
+    }
+</style>
+<body>
+<header class="header">
+    <div class="left"> <!--left box for logo-->
+  <img src="img/gymlogo.png" alt="">
+  <div>
+   
+  </div>
+    </div>
+    <div class="mid"><!--left box for navbar-->
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+
+    </div>
+    <div class="right"><!--right box for buttons-->
+<button class="btn">
+Login
+</button>
+<button class="btn">
+Signup
+</button>
+
+    </div>
+</header>   
+ <div class="container">
+   <h1> Join the best gym of Hyderabad now </h1>
+   <form action="noaction.php">
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your name">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your age">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your gender">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your locality">
+    </div>
+    <button class="btn">Submit</button>
+   </form>
+ </div>
+</body>
+</html>
